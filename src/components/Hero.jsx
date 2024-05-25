@@ -69,13 +69,7 @@ function Hero() {
           </div>
         </div>
 
-        {/* page up */}
-        <div
-          onClick={scrollToTop}
-          className={`scroll-up ${goUp ? "show-scroll" : ""}`}
-        >
-          <i className="fa-solid fa-angle-up"></i>
-        </div>
+       
       </section>
     </>
   );
